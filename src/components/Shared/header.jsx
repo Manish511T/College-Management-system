@@ -5,6 +5,9 @@ const header = () => {
     const CourseNavigate = useNavigate();
     const HomeNavigate = useNavigate(); 
     const PlacementNavigate = useNavigate();
+    const EventsNavigate = useNavigate();
+    const AboutNavigate = useNavigate();
+
     const goToCourse = ()=>{
         CourseNavigate("/course");
     };
@@ -13,6 +16,12 @@ const header = () => {
     };
     const goToPlacement = ()=>{
         PlacementNavigate("/placement");
+    }
+    const goToEvents = ()=>{
+        EventsNavigate("/events");
+    }
+    const goToAbout = ()=>{
+        AboutNavigate("/about");
     }
 
 
@@ -33,8 +42,8 @@ const header = () => {
             <div className='flex justify-evenly w-2/3 '>
                 <h1 onClick={goToCourse} className='hover:border-b-2 cursor-pointer hover:text-white'>Course</h1>
                 <h1 onClick={goToPlacement} className='cursor-pointer hover:border-b-2 hover:text-white'>Placement</h1>
-                <h1 className='cursor-pointer'>Faculties</h1>
-                <h1 className='cursor-pointer'>About us</h1>
+                <h1 onClick={goToEvents} className='cursor-pointer hover:border-b-2 hover:text-white'>Events</h1>
+                <h1 onClick={goToAbout} className='cursor-pointer hover:border-b-2 hover:text-white'>About us</h1>
             </div>
             <div className='cursor-pointer'>
             <i class="ri-map-pin-2-line"></i>

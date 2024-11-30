@@ -8,7 +8,7 @@ const placement = () => {
     return (
         <>
             <Header />
-            <div className='relative  w-full h-96 cursor-pointer '>
+            <div className=' relative  w-full h-96 cursor-pointer '>
                 <img className='w-full h-full  rounded-lg ' src="https://globalinst.in/wp-content/uploads/2022/02/placementteambanner.jpg" alt="img" />
                 <h1 className='absolute inset-0 flex items-center justify-center text-white text-7xl font-bold bg-black bg-opacity-50'>PLACEMENT TEAM</h1>
             </div>

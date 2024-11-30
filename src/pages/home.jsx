@@ -13,12 +13,12 @@ const home = () => {
     <>
       <Header />
 
-      <div className='bg-slate-500 h-80 w-screen overflow-hidden relative'>
+      <div className='bg-slate-500 h-80  w-screen overflow-hidden relative '>
         <img className='h-80 w-screen opacity-50 ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFtsBg_SpNF_VwzVZCNzlGUsT-8PJxOZD7kg&s" alt="" />
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-white'>
           <div className='flex flex-col items-center mt-5'>
             <h1 className='text-5xl font-bold'>WELCOME  TO</h1>
-            <h1 className='text-2xl text-center  font-semibold text-[#ffffff]'>GLOBAL EDUCATIONAL INSTITUTES OF MANAGEMENT AND TECHNOLOGY </h1>
+            <h1 className='text-2xl text-center  font-semibold text-[#ffffff]'>GLOBAL INSTITUTES OF INFORMATION AND TECHNOLOGY </h1>
             <p className='font-serif mt-2'>Build Skills From Expert Teacher</p>
             <div className='flex justify-around w-screen mt-16 mb-0'>
               <button className='bg-green-700 p-2 rounded-lg transform hover:scale-110 transition-transform duration-300  hover:shadow-lg'>Admissions open 2024</button>

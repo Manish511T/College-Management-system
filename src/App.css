@@ -1,3 +1,21 @@
 html{
     scroll-behavior: smooth;
 }
+
+ul {
+    list-style: none; /* Removes default bullets */
+    padding-left: 1.5rem; /* Adds space for custom markers */
+  }
+  li {
+    position: relative;
+    margin-bottom: 1rem; /* Adds spacing between each bullet */
+    line-height: 1.6; /* Improves readability */
+  }
+  li::before {
+    content: '•'; /* Custom bullet marker (e.g., circle) */
+    color: blue; /* Bullet color */
+    font-size: 1.2rem; /* Bullet size */
+    position: absolute;
+    left: -1.5rem; /* Positions the marker to the left of the text */
+    top: 0.2rem; /* Adjusts vertical alignment */
+}
