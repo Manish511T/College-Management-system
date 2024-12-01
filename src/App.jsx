@@ -5,6 +5,8 @@ import Course from './components/CourseManagem/course';
 import Placement from './components/CollegeManagement/placement';
 import Events from './components/CollegeManagement/events';
 import About from './pages/About';
+import Login from './components/Auth/login';
+import Signup from './components/Auth/signup';
 
 const App = () => {
 
@@ -16,6 +18,8 @@ const App = () => {
         <Route path='/placement' element={<Placement/>}/>
         <Route path='/events' element={<Events/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
       </Routes>
     </Router>
 

@@ -11,9 +11,9 @@ const footer = () => {
                     <div>
                         <h1 className='text-2xl  border-b border-dashed border-blue-900'>SOCIAL HANDLE</h1>
                         <div className='flex justify-start items-center gap-5 m-2 text-2xl'>
-                            <i class="ri-facebook-circle-fill"></i>
-                            <i class="ri-instagram-line"></i>
-                            <i class="ri-linkedin-box-fill"></i>
+                            <a href="https://www.facebook.com/globalinst.connect"><i class="ri-facebook-circle-fill"></i></a>
+                            <a href="https://www.instagram.com/globalinst.connect/"><i class="ri-instagram-line"></i></a>
+                            <a href="https://www.linkedin.com/company/globalinst-connect"><i class="ri-linkedin-box-fill"></i></a>
                         </div>
                     </div>
 
