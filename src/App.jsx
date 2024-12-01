@@ -5,8 +5,8 @@ import Course from './components/CourseManagem/course';
 import Placement from './components/CollegeManagement/placement';
 import Events from './components/CollegeManagement/events';
 import About from './pages/About';
-import Login from './components/Auth/login';
-import Signup from './components/Auth/signup';
+import Login from './components/login and signup/login';
+import Signup from './components/login and signup/signup';
 
 const App = () => {
 
