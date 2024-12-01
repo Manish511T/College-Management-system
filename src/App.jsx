@@ -7,6 +7,7 @@ import Events from './components/CollegeManagement/events';
 import About from './pages/About';
 import Login from './components/login and signup/login';
 import Signup from './components/login and signup/signup';
+import Admission from './pages/admission';
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/about' element={<About/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
+        <Route path='/admission' element={<Admission/>}/>
       </Routes>
     </Router>
 

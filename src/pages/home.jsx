@@ -5,9 +5,14 @@ import CourseLabel from '../components/Shared/courseLabel'
 import Carosusel from '../components/Shared/carosusel'
 import BrandLabel from '../components/Shared/brandLabel'
 import Footer from '../components/Shared/footer'
+import { useNavigate } from 'react-router-dom'
 
 
 const home = () => {
+  const AdmissionNavigate = useNavigate();
+  const goToAdmission = ()=>{
+    AdmissionNavigate('/admission');
+  }
   
   return (
     <>
@@ -21,7 +26,7 @@ const home = () => {
             <h1 className='text-2xl text-center  font-semibold text-[#ffffff]'>GLOBAL INSTITUTES OF INFORMATION AND TECHNOLOGY </h1>
             <p className='font-serif mt-2'>Build Skills From Expert Teacher</p>
             <div className='flex justify-around w-screen mt-16 mb-0'>
-              <button className='bg-green-700 p-2 rounded-lg transform hover:scale-110 transition-transform duration-300  hover:shadow-lg'>Admissions open 2024</button>
+              <button onClick={goToAdmission} className='bg-green-700 p-2 rounded-lg transform hover:scale-110 transition-transform duration-300  hover:shadow-lg'>Admissions open 2024</button>
               <button className='bg-[#18397C] p-2 rounded-lg transform hover:scale-110 transition-transform duration-300'>Enquiry Form</button>
             </div>
           </div>
