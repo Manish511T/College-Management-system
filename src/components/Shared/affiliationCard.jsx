@@ -4,7 +4,7 @@ const affiliationCard = () => {
   return (
     <div className='h-60 flex items-center justify-center flex-col gap-5 '>
         <div>
-            <h1 className='text-[#18397C] text-2xl mt-2'>AFFLIATED / APPROVED BY</h1>
+            <h1 className='text-[#18397C] text-2xl mt-2'>AFFILIATED / APPROVED BY</h1>
         </div>
 
         <div className='flex gap-3'>
